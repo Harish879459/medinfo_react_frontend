@@ -1,0 +1,151 @@
+
+.main-head {
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.nav-tabs {
+    margin-top: 5%;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .custom-col {
+        float: none;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 20%;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .custom-col {
+        float: none;
+    }
+
+
+    .register-form {
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    /*Marign top*/
+    .login-form {
+        margin-top: 5%;
+    }
+
+
+    .register-form {
+        margin-top: 20%;
+    }
+
+}
+
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2 {
+    font-weight: 300;
+}
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.btn-black:hover {
+    color: lightyellow;
+
+}
+
+/*My css*/
+.custom-link {
+    font-size: small;
+    cursor: pointer;
+
+}
+
+.custom-col {
+    float: left;
+}
+
+
+.custom-search i {
+    position: absolute;
+}
+
+.custom-search {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icn {
+    padding: 10px;
+    min-width: 40px;
+    margin: 0;
+
+    float: right;
+
+}
+
+.custom-frmControl {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: small;
+}
+
+
